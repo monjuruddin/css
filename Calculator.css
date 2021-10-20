@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+                           /* This is Calculator css */
+
+.calculator{
+    height: 180px;
+    width: 140px;
+    background-color: rgba(13, 113, 131, 0.836);
+    margin: 0 auto;
+    border-radius: 5%;
+    padding: 15px;
+    padding-top: 30px;
+    padding-right: -5px;
+    margin-left: 890px;
+    
+
+}.main-bar{
+    height: 30px;
+    width: 135px;
+    background-color: rgb(175, 152, 152);
+    margin-bottom: 3px;
+    font-size: 18px;
+    text-align: right;
+    border-radius: 3%;
+}.button{
+    height: 22px;
+    width: 28px;
+    background-color: rgb(24, 165, 118);
+    border-radius: 3%;
+    font-size: 15px;
+    margin-top: 2px;
+    text-align: center;
+    transform: skewX(6);
+}.last-button{
+    height: 25px;
+    width: 63px;
+    background-color: rgb(24, 165, 118);
+    border-radius: 3%;
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: center;  
+}.main-bar:hover{
+    background-color: rgb(194, 201, 174);
+}  .button:hover{
+    background-color: rgba(19, 35, 182, 0.747);
+}  .last-button:hover{
+    background-color: rgb(216, 230, 32);
+}    

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body style="background-color: rgb(109, 153, 153);">
+
+                     <!-- This is Calculator html code -->
+
+    <div class="calculator"> 
+
+        <form action="#" name="form">
+            <input class="main-bar" type="text" value="" name="display" id="" placeholder="0">
+    
+            
+            <div class="line">
+                <input class="button" type="text" name="btn" value="7" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="8" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="9" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="+" id="" onclick="calculate(this.value)">
+               
+               
+            </div>
+            <div class="line">
+                <input class="button" type="text" name="btn" value="4" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="5" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="6" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="-" id="" onclick="calculate(this.value)">
+               
+               
+            </div>
+            <div class="line">
+                <input class="button" type="text" name="btn" value="1" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="2" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="3" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="*" id="" onclick="calculate(this.value)">
+               
+               
+            </div>
+            
+            <div class="line">
+                <input class="button" type="text" name="btn" value="0" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn"value="00" id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="." id="" onclick="calculate(this.value)">
+                <input class="button" type="text" name="btn" value="/" id="" onclick="calculate(this.value)">
+                
+               
+            </div>
+    
+            
+            <div class="line">
+                <input class="last-button" type="text" name="" value="C" id="" onclick="display.value = null">
+                <input class="last-button" type="text" name="" value="=" id="" onclick="display.value = eval(display.value)">
+        </div>
+    
+    
+        </form>
+    </div><br><br>  
+     
+    
+    
+
+
+
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
